@@ -1,8 +1,20 @@
-# Index = int(input('enter index '))
-Value = input('replace the name ')
-List = ['reda','fatiha','rim','yassine','rihanne']
-if Value in List:
-    List.remove(Value)
-    print(List)
-else:
-    print(False)
+Num1 = float(input("enter number one "))
+operetor = input("enter operetor ")
+Num2 = float(input('enter number two '))
+def number(Num1,Num2,operetor):
+    if operetor == "+":
+        print(Num1 + Num2)
+        
+    elif operetor == "-":
+        print(Num1 - Num2)
+    elif operetor == "*":
+        print(Num1 * Num2)
+    elif operetor == "/":
+        print(Num1 / Num2)
+    elif operetor == '%':
+        print(Num1 % Num2)
+    elif operetor is not "+"and"/"and"+"and"*"and"%":
+        print('opertor not true use + or - or * or / or %')
+number(Num1,Num2,operetor)
+        
+        
