@@ -1,32 +1,10 @@
+item = [4,6,7,2,5,7,8,30]
+x = 30
 
-Num1 = float(input(' : '))
-Opertor = input('Enter opertor')
-Num2 = float(input(' : '))
-
-#this fontion for Addition
-if Opertor is '+':
-    def Add(Num1,Num2,opertor):
-        if opertor == "+":
-            return Num1 + Num2
-    print(Add(Num1,Num2,Opertor))
-
-#this fontion for Subtraction
-elif Opertor is "-":
-    def Sub(Num1,Num2,opertor):
-        if opertor == "-":
-            return Num1 + Num2
-    print(Sub(Num1,Num2,Opertor))
-
-#this fonction for Multiplication
-elif Opertor is "*":
-    def Mult(Num1,Num2,opertor):
-        if opertor == "*":
-            return Num1 + Num2
-    print(Mult(Num1,Num2,Opertor))
-
-#this fonction for Division
-elif Opertor is "/":
-    def Div(Num1,Num2,opertor):
-        if opertor == "/":
-            return Num1 + Num2
-    print(Div(Num1,Num2,Opertor))
+def search_item(liste,key):
+    for i in liste:
+        if key == i:
+            print(liste.index(i))
+        for i jljl;and
+        license.next
+print(search_item(item,x))         
